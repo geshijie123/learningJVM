@@ -7,7 +7,7 @@ public class demo {
     private static final int _1MB = 1024 * 1024;
 
     /**
-     *  vm 参数 -verbose:gc  -Xms20M  -Mmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
+     *  vm 参数 -verbose:gc  -Xms20M  -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
      */
     public static void testALLocation(){
         byte[] allocation1,allocation2,allocation3,allocation4;
