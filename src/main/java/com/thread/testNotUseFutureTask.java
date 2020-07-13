@@ -36,8 +36,6 @@ public class testNotUseFutureTask {
 
 
 
-
-
         System.out.println(userInfo+userAddress);
         System.err.println("testUseFutureTask 耗时：" + (System.currentTimeMillis() - startTime));
     }

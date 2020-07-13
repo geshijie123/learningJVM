@@ -1,0 +1,5 @@
+### Get request with disabled redirects
+# @no-redirect
+GET http://www.baidu.com
+
+###
