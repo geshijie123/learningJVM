@@ -17,5 +17,7 @@ public class RedisTest {
         System.out.println("服务正在运行: "+jedis.ping());
         jedis.set("aaa","111");
         System.out.println(jedis.get("aaa"));
+
+        jedis.lrange("aa",0,3);
     }
 }

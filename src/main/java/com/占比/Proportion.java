@@ -70,9 +70,9 @@ public class Proportion {
 
     @Test
     public void test1(){
-        int[] arr = new int[]{3,3,3};
+        int[] arr = new int[]{3,3,4};
         for(int i = 0;i < arr.length; i++){
-            System.out.println("值:"+getPercentValue(arr,0,i,2));
+            System.out.println("值:"+getPercentValue(arr,10,i,2));
         }
 
     }

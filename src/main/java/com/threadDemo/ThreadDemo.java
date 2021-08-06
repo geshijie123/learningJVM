@@ -1,6 +1,5 @@
 package com.threadDemo;
 
-import com.sun.deploy.net.proxy.ProxyUnavailableException;
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
